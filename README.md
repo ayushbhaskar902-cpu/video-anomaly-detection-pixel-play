@@ -25,3 +25,16 @@ AUC (Area Under ROC Curve)
 ## Next Steps
 - Temporal smoothing
 - Motion-based models (Conv3D, Frame Prediction)
+## Baseline – Frame-level Autoencoder
+
+**Approach**
+- Trained a convolutional autoencoder on normal frames only
+- Used reconstruction error as anomaly score
+- Generated frame-wise anomaly scores for test videos
+
+**Results**
+- Public AUC: **0.36206**
+
+**Notes**
+- Raw frame-level scores are noisy
+- Temporal smoothing is expected to significantly improve performance
