@@ -38,3 +38,13 @@ AUC (Area Under ROC Curve)
 **Notes**
 - Raw frame-level scores are noisy
 - Temporal smoothing is expected to significantly improve performance
+## Temporal Smoothing Improvement
+
+**Method**
+- Applied per-video moving average smoothing (window = 15)
+- Reduced frame-level noise
+- Enhanced anomaly continuity
+
+**Results**
+- Raw Autoencoder AUC: 0.36206
+- + Temporal Smoothing AUC: **0.45948**
