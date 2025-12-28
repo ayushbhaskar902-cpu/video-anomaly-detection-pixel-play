@@ -52,10 +52,11 @@ AUC (Area Under ROC Curve)
 
 **Method**
 
--Applied nomalisation on the existing temporal smoothing (windows =15 ---> used this as it gave the best results )
+- Applied nomalisation on the existing temporal smoothing (windows =15 ---> used this as it gave the best results )
 
-** Results**
 
--Before AUC:**0.45948**
+**Results**
+
+- Before AUC:**0.45948**
 - + Per Video Nomalisation AUC:**0.54938**
     
